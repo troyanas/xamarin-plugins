@@ -43,6 +43,7 @@ public override bool FinishedLaunching (UIApplication app, NSDictionary options)
 ```
 
 ####Android
+ Support Android 8.1
  On the Android Application class, is better to use the OnCreate of the Android Application class so you can handle geofence events even when activities are closed or app not running by starting a sticky android service to keep listening to geofence events. <b>(See Helpers/GeofenceService.txt and GeofenceAppStarter.txt)</b>
 
 Initialization on your MainActivity/Application class.
